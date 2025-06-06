@@ -8,13 +8,13 @@
       <inertial pos="0 0 0.065" mass="0.928"/>
 
       <!-- Wheels: 115mm from center (230mm total span), 80mm diameter, 45mm wide, 50mm height -->
-      <body name="l_wheel" pos="-0.115 0 0.05">
+      <body name="l_wheel" pos="-0.117.5 0 0.05">
         <inertial pos="0 0 0" mass="0.084"/>
         <joint name="torso_l_wheel" type="hinge" pos="0 0 0" axis="-1 0 0" damping="0.01"/>
         <geom name="l_wheel_geom" size="0.0425 0.0225" quat="0.707107 0 0.707107 0" type="cylinder" material="wheel_material"/>
       </body>
 
-      <body name="r_wheel" pos="0.115 0 0.05">
+      <body name="r_wheel" pos="0.117.5 0 0.05">
         <inertial pos="0 0 0" mass="0.084"/>
         <joint name="torso_r_wheel" type="hinge" pos="0 0 0" axis="1 0 0" damping="0.01"/>
         <geom name="r_wheel_geom" size="0.0425 0.0225" quat="0.707107 0 0.707107 0" type="cylinder" material="wheel_material"/>
